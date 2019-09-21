@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\can.o"
+".\objects\nvic.o"
+".\objects\fir.o"
+".\objects\pid.o"
+".\objects\motor_task.o"
+"D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM3l_math.lib"
+".\objects\misc.o"
+".\objects\stm32f10x_can.o"
+".\objects\stm32f10x_dma.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\startup_stm32f10x_cl.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\Pid_Current.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Pid_Current.map" -o .\Objects\Pid_Current.axf

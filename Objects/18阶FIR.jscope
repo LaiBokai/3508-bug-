@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M3" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\13791\Desktop\嵌软学习任务\3508_Current_Pid\3508电流环\Objects\18阶FIR.jscope\unspecified" />
+            <ElfFile Name="C:\Users\13791\Desktop\嵌软学习任务\3508_Current_Pid\3508电流环\Objects\Pid_Current.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="100000" />
+            </Scope>
+            <Trigger>
+                <Options Level="50.000000" Symbol="SetPoint" On="0" Auto="0" Rise="0" Fall="1" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="flow" Address="0x20000076" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-685" YMaxSampled="1034" YAvgSampled="-14" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="100" MaxValue="400" File="HARDWARE\Can.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="flow_valid" Address="0x20000018" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-173" YMaxSampled="676" YAvgSampled="26" Offset="6" ShowInGraph="1" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="100" MaxValue="1000" File="HARDWARE\Can.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="SetPoint" Address="0x200002A8" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="500" YAvgSampled="11" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="100" MaxValue="2" File="CONTROL\Motor_Task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Current" Address="0x20000004" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-236" YMaxSampled="739" YAvgSampled="1" Offset="14" ShowInGraph="0" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="100" MaxValue="100" File="USER\main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
